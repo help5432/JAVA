@@ -25,6 +25,12 @@ public class C02SystemOut {
 	   		System.out.print("아냥\t하\t세요");
 	   
 	     // 2.System.out.printf()
+	   	 // format : 형식, 서식  서식이란? 
+	   	 // %d : 10진수 정수 서식문자
+	   	 // %f : 10진수 실수 서식문자
+	   	 // %c : 한문자 서식문자
+	   	 // %s : 문자열 서식문자
+	   		
 	   		System.out.printf("%d %d %d \n", 10,20,30);
 	   		System.out.printf("%f %f %f \n", 10.1,20.1,30.1);
 	   		System.out.printf("%c %c %c \n", 'A','B','C');
@@ -33,8 +39,18 @@ public class C02SystemOut {
 	     
 	   		
 	   		
-		    // 3.System.out.println()
-	
+	     // 3.System.out.println() 역슬래쉬 n 이 기본으로 들어가있는 프린트
+	   		System.out.println("안녕하세요");
+	   		System.out.println("아령하세요");
+	   		System.out.println("아룡하세요");
+	   		
+	   		
+	   		System.out.println("아룡하세요  \"안녕\""); //단순 표시형 역슬래쉬 "" 표시
+
+	   		
+	   		
+	   		
+	   		
 	}
 
 }
